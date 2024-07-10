@@ -1,0 +1,50 @@
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+ h1{
+ color: rgb(237, 172, 8);
+ }
+ body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+.move-button{
+     margin: 20px;
+     background-color:transparent;
+     border: 2px solid white;
+     border-radius: 50%;
+     cursor: pointer;
+}
+.move-button:hover{
+    border: 2px solid  rgb(237, 172, 8) ;
+}
+.emoji{
+    height: 100px;
+    width: 100px;
+    padding: 20px;        
+}
+.result{
+    font-size: 30px;
+    color: rgb(237, 172, 8);
+    margin: 10px 170px;
+}
+.score{
+ margin-top: 10px ;
+}
+.restart{
+    background-color:  rgb(237, 172, 8);
+    color: black;
+    padding: 10px 20px;
+    margin: 20px 170px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+}
+.restart:hover{
+    border: 2px solid white;
+}      
